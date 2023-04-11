@@ -46,6 +46,7 @@ li {
     list-style: none;
 }
 .common_btn a{
+    text-decoration: none;
     color: var(--white_color);
     font-size: 18px;
     font-weight: 500;
@@ -150,6 +151,7 @@ li {
     width: 110px;
 }
 .manu_btn a{
+    text-decoration: none;
     color: var(--allh_black_color);
     font-size: 18px;
     font-weight: 500;
@@ -688,7 +690,188 @@ li {
 
 
 /* Testimonial part start */
+#testimonial{}
+.testimonial_left_images{
+    position: relative;
+    height: 100%;
+}
+.testimonial_left_images .tl_pic1{
+    width: 70px;
+    position: absolute;
+    top: 90px;
+    right: 55px;
+}
+.testimonial_left_images .tl_pic2{
+    width: 60px;
+    position: absolute;
+    top: 32%;
+    right: -9%;
+}
+.testimonial_left_images .tl_pic3{
+    width: 35px;
+    position: absolute;
+    top: 60%;
+    right: -30%;
+}
+.testimonial_left_images .tl_pic4{
+    width: 55px;
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
 
+
+.testimonial_left_images .tl_bg1{
+    width: 16px;
+    position: absolute;
+    top: 24%;
+    left: 10%;
+}
+.testimonial_left_images .tl_bg2{
+    width: 30px;
+    position: absolute;
+    top: 19%;
+    right: -25%;
+}
+.testimonial_left_images .tl_bg3{
+    width: 18px;
+    position: absolute;
+    top: 44%;
+    left: 61%;
+}
+
+
+
+
+.testimonial_right_images{
+    position: relative;
+    height: 100%;
+}
+.testimonial_right_images .tr_pic1{
+    width: 58px;
+    position: absolute;
+    top: 15%;
+    right: 28%;
+}
+.testimonial_right_images .tr_pic2{
+    width: 49px;
+    position: absolute;
+    top: 32%;
+    right: 0%;
+}
+.testimonial_right_images .tr_pic3{
+    width: 79px;
+    position: absolute;
+    top: 60%;
+    left: 0%;
+}
+
+
+
+.testimonial_right_images .tr_bg1{
+    width: 16px;
+    position: absolute;
+    top: 24%;
+    left: 10%;
+}
+.testimonial_right_images .tr_bg2{
+    width: 30px;
+    position: absolute;
+    top: 19%;
+    right: -25%;
+}
+.testimonial_right_images .tr_bg3{
+    width: 18px;
+    position: absolute;
+    top: 44%;
+    left: 61%;
+}
+
+
+
+.testimonial_slider{
+
+    padding: 80px 0 187px;
+}
+.testimonial_slider .testimonial_slider_items{
+    text-align: center;
+}
+.testimonial_slider .testimonial_slider_items span{
+    color: var(--red_color);
+    font-size: 65px;
+}
+.testimonial_slider .testimonial_slider_items p{
+    /* width: 896px; */
+    color: var(--allp_black_color);
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: var(--poppins_font);
+    padding-top: 48px;
+}
+.testimonial_slider .testimonial_slider_items ul{
+    padding-top: 55px;
+}
+.testimonial_slider .testimonial_slider_items ul li{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial_slider .testimonial_slider_items ul li .pic{
+    /* padding-top: 55px; */
+}
+.testimonial_slider .testimonial_slider_items ul li .pic img{
+    width: 60px;
+}
+.testimonial_slider .testimonial_slider_items ul li .text{
+    text-align: left;
+}
+.testimonial_slider .testimonial_slider_items ul li .text h4{
+    color: var(--allh_black_color);
+    font-size: 22px;
+    /* line-height: 21px; */
+    font-weight: 500;
+    font-family: var(--jost_font);
+}
+.testimonial_slider .testimonial_slider_items ul li .text p{
+    color: var(--allp_black_color);
+    font-size: 16px;
+    /* line-height: 20px; */
+    font-weight: 400;
+    font-family: var(--poppins_font);
+    padding: 0;
+    /* margin: 0; */
+}
+.slick-dots{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.slick-dots li button{
+    font-size: 0;
+    border: 0;
+    width: 15px;
+    height: 15px;
+    background: var(--red_color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 71px;
+}
+.slick-dots .slick-active button{
+    border: 3px solid white;
+    outline: 1px solid var(--red_color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 /* Testimonial part end */
 
 
