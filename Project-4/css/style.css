@@ -499,7 +499,9 @@ ul, ol, li{
 /* Portfolio part end */
 
 /* Blog part start */
-#blog{}
+#blog{
+    padding-bottom: 90px;
+}
 .blog_info{}
 .blog_info .blog_text{
     display: flex;
@@ -529,14 +531,69 @@ ul, ol, li{
 /* Footer part start */
 #footer{
     background: var(--black_color);
+    
 }
-#footer .subscribe{
+.subscribe{
     background: var(--purple_color);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
 }
-#footer .subscribe ul{
-    /* align-items: center;
-    justify-content: center;
-    text-align: center; */
+.subscribe .subscribe_items{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 30px 0;
+}
+.subscribe .subscribe_items .text{
+    width: 50%;
+    margin-left: 25px;
+}
+.subscribe .subscribe_items .text h3{
+    color: var(--white_color);
+    font-size: 21px;
+    line-height: 36px;
+    font-weight: 600;
+    font-family: var(--Monserrat_font);
+    text-transform: uppercase;
+}
+.subscribe .subscribe_items .text p{
+    color: var(--white_color);
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 300;
+    font-family: var(--Monserrat_font);
+}
+.subscribe .subscribe_items .input{
+    width: 50%;
+}
+.subscribe .subscribe_items .input input{
+    color: var(--white_color);
+}
+.subscribe .subscribe_items .input input[type=email]{
+    color: var(--white_color);
+    background: var(--purple_color);
+    border: 2px solid var(--white_color);
+    padding: 20px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-right: 60px;
+}
+.subscribe .subscribe_items .input input[type=submit]{
+    background: var(--purple_color);
+    border: 2px solid var(--white_color);
+    color: var(--white_color);
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
 }
 #footer .subscribe ul li{
     display: inline-block;
@@ -545,19 +602,10 @@ ul, ol, li{
     padding: 35px 0;
 }
 #footer .subscribe ul li h3{
-    color: var(--white_color);
-    font-size: 21px;
-    line-height: 36px;
-    font-weight: 600;
-    font-family: var(--Monserrat_font);
-    text-transform: uppercase;
+    
 }
 #footer .subscribe ul li p{
-    color: var(--white_color);
-    font-size: 15px;
-    line-height: 26px;
-    font-weight: 300;
-    font-family: var(--Monserrat_font);
+    
 }
 #footer .subscribe ul li input[type="text"]{
     padding: 30px 20px;
